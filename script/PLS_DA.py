@@ -8,7 +8,7 @@ Méthode purement statistique/chimiométrique :
   - Pas d'apprentissage itératif
   - Décomposition matricielle linéaire (algèbre linéaire)
 
-Pipeline :
+Pipeline :b 
   1. Chargement des données
   2. Prétraitement spectral (Savitzky-Golay + StandardScaler)
   3. Choix du nombre de composantes par cross-validation (scree plot)
