@@ -1,3 +1,4 @@
+from pathlib import Path
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -16,7 +17,7 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 # ================================
 
 # Charger les données
-data_src = r'Data\combined_data.csv'
+data_src = Path(__file__).parent.parent / 'data' / 'combined_data.csv'
 data = pd.read_csv(data_src)
 
 # On considère que la dernière colonne est la cible
